@@ -20,5 +20,5 @@ async def root():
         return JSONResponse(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, content={'error': 'There is a problem with the server, please come back later'})
 
 
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+# if __name__ == "__main__":
+#     uvicorn.run(app, host="0.0.0.0", port=8000)
